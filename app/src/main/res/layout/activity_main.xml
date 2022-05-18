@@ -18,7 +18,7 @@
         android:text="Calculadora " />
 
     <EditText
-        android:id="@+id/n1"
+        android:id="@+id/operacion"
         android:layout_width="332dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -27,8 +27,7 @@
         android:layout_marginBottom="549dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="operación" />
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/uno"
@@ -39,6 +38,7 @@
         android:layout_marginEnd="278dp"
         android:layout_marginBottom="457dp"
         android:backgroundTint="#040303"
+        android:onClick="clickuno"
         android:text="1" />
 
     <Button
@@ -50,6 +50,7 @@
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="458dp"
         android:backgroundTint="#040303"
+        android:onClick="clickdos"
         android:text="2" />
 
     <Button
@@ -61,6 +62,7 @@
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="384dp"
         android:backgroundTint="#040303"
+        android:onClick="clickcinco"
         android:text="5" />
 
     <Button
@@ -72,6 +74,7 @@
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="313dp"
         android:backgroundTint="#040303"
+        android:onClick="clickocho"
         android:text="8" />
 
     <Button
@@ -83,6 +86,7 @@
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="311dp"
         android:backgroundTint="#040303"
+        android:onClick="clicknueve"
         android:text="9" />
 
     <Button
@@ -94,6 +98,7 @@
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="384dp"
         android:backgroundTint="#040303"
+        android:onClick="clickseis"
         android:text="6" />
 
     <Button
@@ -105,6 +110,7 @@
         android:layout_marginEnd="62dp"
         android:layout_marginBottom="457dp"
         android:backgroundTint="#040303"
+        android:onClick="clicktres"
         android:text="3" />
 
     <Button
@@ -116,6 +122,7 @@
         android:layout_marginEnd="279dp"
         android:layout_marginBottom="384dp"
         android:backgroundTint="#040303"
+        android:onClick="clickcuatro"
         android:text="4" />
 
     <Button
@@ -127,6 +134,7 @@
         android:layout_marginEnd="278dp"
         android:layout_marginBottom="312dp"
         android:backgroundTint="#040303"
+        android:onClick="clicksiete"
         android:text="7" />
 
     <Button
@@ -138,6 +146,7 @@
         android:layout_marginEnd="171dp"
         android:layout_marginBottom="242dp"
         android:backgroundTint="#040303"
+        android:onClick="clickcero"
         android:text="0" />
 
     <Button
@@ -149,6 +158,7 @@
         android:layout_marginEnd="293dp"
         android:layout_marginBottom="159dp"
         android:backgroundTint="#F65616"
+        android:onClick="clicksuma"
         android:text="+" />
 
     <Button
@@ -160,6 +170,7 @@
         android:layout_marginEnd="276dp"
         android:layout_marginBottom="236dp"
         android:backgroundTint="#136305"
+        android:onClick="clickreset"
         android:text="borrar" />
 
     <Button
@@ -171,6 +182,7 @@
         android:layout_marginEnd="184dp"
         android:layout_marginBottom="158dp"
         android:backgroundTint="#F65616"
+        android:onClick="clickresta"
         android:text="-" />
 
     <Button
@@ -182,6 +194,7 @@
         android:layout_marginEnd="293dp"
         android:layout_marginBottom="96dp"
         android:backgroundTint="#F65616"
+        android:onClick="clickmult"
         android:text="*" />
 
     <Button
@@ -193,6 +206,7 @@
         android:layout_marginEnd="183dp"
         android:layout_marginBottom="96dp"
         android:backgroundTint="#F65616"
+        android:onClick="clickdiv"
         android:text="/" />
 
     <Button
@@ -204,6 +218,7 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="165dp"
         android:backgroundTint="#0B57DC"
+        android:onClick="clickresult"
         android:text="=" />
 
     <Button
